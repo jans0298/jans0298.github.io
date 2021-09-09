@@ -1,6 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(https://www.xmple.com/wallpaper/blue-white-gradient-linear-1920x1080-c2-fffaf0-87ceeb-a-75-f-14.svg);
+  }
+
 main{
-    color: red;
+    color: black;
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0px;
+    height: 75px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin:0 10px;
+    border: 5px solid lightblue;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+
+}
+nav a:hover{
+    background-color: rgb(167, 167, 167);
+}
+main{
+    position: fixed;
+    top: 100px;
 }
