@@ -38,27 +38,31 @@ main{
 }
 
 progress#nbsa {
-  width: 500px;
+  width: 375px;
   border: 1px solid;
   position: relative;
+
 }
 
+progress#nbsa2 {
+    width: 125px;
+    border: 1px solid;
+    position: relative;
+  
+  }
 
-progress::-webkit-progress-bar {
+
+progress#nbsa::-webkit-progress-bar {
     background-color: rgb(179, 179, 179);
 }
-progress::-webkit-progress-value {
+progress#nbsa::-webkit-progress-value {
     background-color: black;
 }
 
-
-.vertical {
-    border-left: 5px solid green;
-    height: 14px;
-    position: absolute;
-    right: 125px;
-    top: 540px;
-
+progress#nbsa2::-webkit-progress-bar {
+    background-color: rgb(179, 179, 179);
 }
 
-
+progress#nbsa2::-webkit-progress-value {
+    background-color: darkgreen;
+}
