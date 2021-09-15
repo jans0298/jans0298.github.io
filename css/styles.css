@@ -41,9 +41,7 @@ progress#nbsa {
   width: 375px;
   border: 1px solid;
   position: relative;
-
 }
-
 progress#nbsa2 {
     width: 125px;
     border: 1px solid;
@@ -51,18 +49,37 @@ progress#nbsa2 {
   
   }
 
-
 progress#nbsa::-webkit-progress-bar {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(218, 216, 216);
 }
 progress#nbsa::-webkit-progress-value {
-    background-color: black;
+    background-color: rgb(153, 153, 153);
 }
-
 progress#nbsa2::-webkit-progress-bar {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(218, 216, 216);
+}
+progress#nbsa2::-webkit-progress-value {
+    background-color: green;
 }
 
-progress#nbsa2::-webkit-progress-value {
-    background-color: darkgreen;
-}
+.accordion {
+    background-color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }  
