@@ -2,176 +2,195 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dashboard</title>
-  <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <style>
-    table,
-    th,
-    td {
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            background-color: rgb(218, 216, 216);
+            padding: 5px;
+        }
+        
+        th {
+            background-color: rgb(194, 192, 192);
+        }
+    </style>
 
-    th,
-    td {
-      background-color: rgb(218, 216, 216);
-      padding: 5px;
-    }
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="profile.html">Profile</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
 
-    th {
-      background-color: rgb(194, 192, 192);
-    }
-  </style>
+    </nav>
+    <main>
+        <div id="table">
+            <div id="center">
+                <h1>Study Monitor</h1>
+            </div>
+            <br>
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="profile.html">Profile</a>
-    <a href="faq.html">FAQ</a>
-    <a href="blog.html">Blog</a>
+            <table>
 
-  </nav>
-  <main>
-    <h1>Study Monitor</h1>
-    <br>
+                <table style="width:100%">
+                    <tr>
+                        <th>Quartile</th>
+                        <th>Course</th>
+                        <th>EC</th>
+                        <th>Exam</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">1</td>
+                        <td>Programme and Career Orientation</td>
+                        <td>2.5</td>
+                        <td>Assessment</td>
+                        <td>...</td>
 
-    <table>
+                    </tr>
 
-      <table style="width:100%">
-        <tr>
-          <th>Quartile</th>
-          <th>Course</th>
-          <th>EC</th>
-          <th>Exam</th>
-          <th>Grade</th>
-        </tr>
-        <tr>
-          <td rowspan="3">1</td>
-          <td>Programme and Career Orientation</td>
-          <td>2.5</td>
-          <td>Assessment</td>
-          <td>...</td>
+                    <tr>
+                        <td>Computer Science Basics</td>
+                        <td>5</td>
+                        <td>Written</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Computer Science Basics</td>
-          <td>5</td>
-          <td>Written</td>
-          <td>...</td>
+                    <tr>
+                        <td>Programming Basics</td>
+                        <td>5</td>
+                        <td>Case Study</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Programming Basics</td>
-          <td>5</td>
-          <td>Case Study</td>
-          <td>...</td>
-
-        </tr>
-
-        <tr>
-          <td rowspan="2">2</td>
-          <td rowspan="2">Object Oriented Programming</td>
-          <td rowspan="2">10</td>
-          <td>Case Study</td>
-          <td>...</td>
+                    <tr>
+                        <td rowspan="2">2</td>
+                        <td rowspan="2">Object Oriented Programming</td>
+                        <td rowspan="2">10</td>
+                        <td>Case Study</td>
+                        <td>...</td>
 
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Project</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td>Project</td>
+                        <td>...</td>
+                    </tr>
 
-        <tr>
-          <td rowspan="4">3</td>
-          <td>Framework Development 1</td>
-          <td>5</td>
-          <td>Case Study</td>
-          <td>...</td>
+                    <tr>
+                        <td rowspan="4">3</td>
+                        <td>Framework Development 1</td>
+                        <td>5</td>
+                        <td>Case Study</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td rowspan="3">framework Project 1</td>
-          <td rowspan="3">7.5</td>
-          <td>Project</td>
-          <td>...</td>
+                    <tr>
+                        <td rowspan="3">framework Project 1</td>
+                        <td rowspan="3">7.5</td>
+                        <td>Project</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Assessment</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td>Assessment</td>
+                        <td>...</td>
+                    </tr>
 
-        <tr>
-          <td>Report</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td>Report</td>
+                        <td>...</td>
+                    </tr>
 
-        <tr>
-          <td rowspan="3">4</td>
-          <td rowspan="3">Framework Project 2</td>
-          <td rowspan="3">10</td>
-          <td>Portfolio</td>
-          <td>...</td>
+                    <tr>
+                        <td rowspan="3">4</td>
+                        <td rowspan="3">Framework Project 2</td>
+                        <td rowspan="3">10</td>
+                        <td>Portfolio</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Project</td>
-          <td>...</td>
+                    <tr>
+                        <td>Project</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td>Assessment</td>
-          <td>...</td>
+                    <tr>
+                        <td>Assessment</td>
+                        <td>...</td>
 
-        </tr>
+                    </tr>
 
-        <tr>
-          <td rowspan="3">Entire Year</td>
-          <td>Personal Professional Development</td>
-          <td>12.5</td>
-          <td>Portfolio</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td rowspan="3">Entire Year</td>
+                        <td>Personal Professional Development</td>
+                        <td>12.5</td>
+                        <td>Portfolio</td>
+                        <td>...</td>
+                    </tr>
 
-        <tr>
-          <td>Personality 1</td>
-          <td>1.25</td>
-          <td>Workshop(end Q1)</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td>Personality 1</td>
+                        <td>1.25</td>
+                        <td>Workshop(end Q1)</td>
+                        <td>...</td>
+                    </tr>
 
-        <tr>
-          <td>Personality 2</td>
-          <td>1.25</td>
-          <td>Workshop(end Q3)</td>
-          <td>...</td>
-        </tr>
+                    <tr>
+                        <td>Personality 2</td>
+                        <td>1.25</td>
+                        <td>Workshop(end Q3)</td>
+                        <td>...</td>
+                    </tr>
 
-      </table>
-      <br>
+                </table>
+                <br>
 
-      <label for="progressbar">NBSA Status:</label>
-      <small>0</small>
-      <progress id="nbsa" value="0" max="45"></progress>
-      <small>45</small>
-      <progress id="nbsa2" value="0" max="15"></progress>
-      <small>60</small>
+                <label for="progressbar">NBSA Status:</label>
+                <small>0</small>
+                <progress id="nbsa" value="45" max="45"></progress>
+                <small>45</small>
+                <progress id="nbsa2" value="15" max="15"></progress>
+                <small>60</small>
 
-  </main>
+                <ul class="menu">
+                    <li><a class="menuItem" href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank">Course Regulations</a></li>
+                    <li><a class="menuItem" href="https://hz.nl/uploads/documents/Regelingen/OERS/2021-2022/11.-Uitvoeringsregeling-OER-ICT-Voltijd-2021-2022.pdf" target="_blank">Implementation Regulations</a></li>
+                    <li><a class="menuItem" href="https://learn.hz.nl/my/" target="_blank">HZ Learn</a></li>
+                    <li><a class="menuItem" href="https://teams.microsoft.com/l/team/19%3a827654897ab746089c081f24aff1c984%40thread.skype/conversations?groupId=337e8cca-f67d-4132-9fa9-b0c761bbeb94&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c" target="_blank">Teams</a></li>
+                    <li><a class="menuItem" href="https://apps.hz.nl/angular/studievoortgang/studiestatus" target="_blank">My HZ Study Progress</a></li>
+                    <li><a class="menuItem" href="https://github.com/HZ-HBO-ICT/" target="_blank">Github Repo HZ</a></li>
+                </ul>
+                <button class="hamburger">
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+              </button>
+                <script src="js/hamburgerMenu.js"></script>
+        </div>
+    </main>
 </body>
 
 </html>
